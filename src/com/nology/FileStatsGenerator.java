@@ -12,7 +12,7 @@ public class FileStatsGenerator {
 
     private FileReader fileReader = new FileReader();
 
-    public FileStats generate(String file) throws IOException {
+    public FileStats generate(String file) {
 
         List<String> lines = fileReader.readFile(file);
 

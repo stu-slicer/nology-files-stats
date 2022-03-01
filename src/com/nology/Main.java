@@ -7,7 +7,7 @@ public class Main {
     public static final String FILE = "bohemian-rhapsody.txt";
     public static final String FILE2 = "life-on-mars.txt";
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
         FileStatsGenerator generator = new FileStatsGenerator();
         FileStats fileStats = generator.generate(FILE);

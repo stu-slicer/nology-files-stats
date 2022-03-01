@@ -7,13 +7,13 @@ import java.util.List;
 
 public class FileReader {
 
-    public List<String> readFile(String file) throws IOException {
-
-        Path filePath = Path.of(file);
-
-        List<String> allLines = Files.readAllLines(filePath);
-
-        return allLines;
+    /**
+     * Opens the given file and reads into a List.
+     * @param file
+     * @return
+     */
+    public List<String> readFile(String file) {
+        throw new UnsupportedOperationException("Not implemented yet!");
     }
 
 }
